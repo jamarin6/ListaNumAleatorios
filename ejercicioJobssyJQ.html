@@ -1,0 +1,60 @@
+<!-- ejercicio jobssy -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio Jobssy</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./ejercicioJobssyJQ.css" type="text/css" media="all" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+	<script src="ejercicioJobssyJQ.js"></script>
+</head>
+<body>
+<br>
+	<div class="container">
+		<div>
+			<p><button type="button" class="btn btn-info btn-block" id="phpNumero">numeroPHP</button></p>
+		</div><br><br>
+		<div class="row">
+			<div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+				<p id="contador" class="text-center"></p>
+				<div id="listNum" class="centro"></div> <!-- TO DO: centrar bien la lista, no vale para col-xs-12 -->
+				<div id="longArray" class="text-center"></div>
+			</div>
+			<div class="col-xs-12 col-sm-9 col-md-10 col-lg-9">				
+				
+				<!-- carousel -->
+				<section id="myCarousel" class="carousel slide indicators-wrap" data-ride="carousel">
+			      <ol class="carousel-indicators">
+			        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#myCarousel" data-slide-to="1"></li>
+			        <li data-target="#myCarousel" data-slide-to="2"></li>
+			      </ol>
+
+			      <div class="carousel-inner">
+			        <div class="active item">
+			          <img src="logojs.jpg" class="adaptar" width='850' height='400'>
+			        </div>
+			        <div class="item">
+			          <img src="responsive.jpg" class="adaptar" width='850' height='400'> 
+			        </div>
+			        <div class="item">
+			          <img src="jquery1.png" class="adaptar" width='850' height='400'>
+			        </div>
+			      </div>
+
+			     <!-- <a href="#myCarousel" class="left carousel-control" data-slide="prev">&lsaquo;</a>
+			      <a href="#myCarousel" class="right carousel-control" data-slide="next">&rsaquo;</a>-->
+			     
+			      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			      
+    			</section><br>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

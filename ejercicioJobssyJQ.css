@@ -1,0 +1,33 @@
+/* css ejercicio Jobssy, VERSION JQUERY los colores en los que voy a pintar los numeros, el 4 no debería salir nunca*/
+
+.color0 {
+	color: #80CC80;
+}
+
+.color1 {
+	color: #FF704D;
+}
+
+.color2{
+	color: #9900CC;
+}
+
+.color3 {
+	color: #FFA319;
+}
+
+.color4 {
+	color: yellow;
+}
+
+.btn-info {
+	border-radius: 4px;
+}
+
+.btn-danger {
+	border-radius: 50%;
+}
+
+.centro {
+	margin-left: 25%;
+}

@@ -3,7 +3,7 @@ var numeros = []; // array en el que van a ir los números
 var cont = 0; // el contador de numeros, para saber cuantos hay
 var numGuardar = 0; // el numero a guardar en bbdd, inicializo a 0
 
-window.onload=function(){ // para que 1ºcargue la página y después pinte la lista, de inicio está vacía
+window.onload=function(){ // para que 1ºcargue la página y después pinte la lista
 dameEstado(); // 1º cargo los numeros que estén guardados en la bbdd
 };
 
@@ -47,7 +47,7 @@ function ordenar(num1, num2) { // ordena de menor a mayor
 function pintaListaNumeros(array){
 		res="<ul>" ;
 		var num = 4;
-		for (i = 0; i < array.length; i++) // abajo, Math.ceil me redondea un coeficiente entre 0 y 4 para el color
+		for (i = 0; i < array.length; i++) // abajo, Math.floor me redondea a la baja un coeficiente entre 0 y 3 para el color
 			res+="<li class='color" + Math.floor(((i / array.length)*4)) + "'>"+array[i] + " <button type='button' class='btn btn-danger' onclick='borra(" + i + ")'>X</button></li>"
 		res+="</ul>";
 		$("#contador").html("cantidad de numeros: " + cont); // mostramos el contador de numeros
